@@ -20,3 +20,4 @@ fun getWeekDateRange(): Pair<String, String> {
         }
     }
     return start.format(formatter) to end.format(formatter)
+}
